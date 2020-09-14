@@ -87,10 +87,12 @@ h2 {
 
 .block {
     display: inline-block;
+    opacity: 0.8;
 }
 
 .block:hover {
     transform: scale(1.01);
+    opacity: 1;
 }
 
 .block img {
