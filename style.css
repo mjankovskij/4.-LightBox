@@ -53,6 +53,7 @@ h2 {
     overflow: hidden;
     display: none;
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .lightbox {
@@ -98,6 +99,7 @@ h2 {
     transform: scale(1.01);
     opacity: 1;
     filter: grayscale(0%);
+    cursor: pointer;
 }
 
 .block img {
@@ -115,11 +117,8 @@ h2 {
     border-radius: 0 0 0 3px;
 }
 
-a .closeLightBox {
-    color: #000000;
-}
-
 .closeLightBox:hover {
     background: #c2bfbf;
     border: solid 1px #c2bfbf;
+    cursor: pointer;
 }
